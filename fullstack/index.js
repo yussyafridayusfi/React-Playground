@@ -1,6 +1,6 @@
 let createBlog = (title, body) => {
 
-  if (!title) {
+  if (!title) { // test
     throw new Error('A title is required')
   }
 
